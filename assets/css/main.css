@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Pontano Sans';
 	}
 	body {
 		background: #37474F;
 		}
+		header {
+			padding: 1.2rem;
+			display: flex;
+			justify-content: center;
+			}
+			h1 {
+				color: #fff;
+				}
