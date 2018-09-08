@@ -9,7 +9,20 @@
 						</head>
 						<body>
 							<header>
-								<h1>LOGOTIPO</h1>
+								<div class="padre_container_items">
+								<h1>GBORJA</h1>
+								</div>
+								<div class="items-menu">
+									<a href="#" class="items">Acerca de</a>
+									<a href="#" class="items">Portafolio</a>
+									<a href="#" class="items">Contacto</a>
+									</div>
 								</header>
+								<script>
+									window.onload = () => {
+										let inicial = document.querySelector(".items:nth-child(1)")
+										inicial.classList.add("active")
+										}
+									</script>
 							</body>
 							</html>
