@@ -3,14 +3,18 @@
 		<head>
 			<title>Gerson Borja | Portafolio</title>
 			<meta charset="utf-8">
-				<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-					<meta name="theme-color"content="#37474F">
+				
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+					<meta name="theme-color"content="#1abc9c">
 						<link rel="stylesheet" href="assets/css/main.css">
+						<link rel="stylesheet" href="assets/css/aos.css">
+						
 						</head>
-						<body>
+						<body class="zoom-in">
+							<div class="container">
 							<header>
 								<div class="padre_container_items">
-								<h1>GBORJA</h1>
+								<h1 class="logo">GBORJA</h1>
 								</div>
 								<div class="items-menu">
 									<a href="#" class="items">Acerca de</a>
@@ -18,11 +22,31 @@
 									<a href="#" class="items">Contacto</a>
 									</div>
 								</header>
+								<div class="banner">
+									<h1 class="title">Crea tu sitio web</h1>
+									<p>
+										Buscas crear tu propia página ya sea para tu negocio, empresa, figura pública o simplemente para darte a conocer en la web.
+										</p>
+									</div>
+									<div class="card">
+										<div class="bar-profile">
+										<img src="assets/img/borja.jpg">
+										<h1>Gerson Borja</h1>
+										<div>
+											<p>
+												Hola me considero un freelancer y desarrollador web, mi nacionalidad es salvadoreña actualmente me dedico mas al area del backend usando php.
+												He aprendido HTML, CSS y Javascript, tengo un trabajo particular pero también me estoy dedicando a la creación de sitios web ya sean pequeños o un poco complejos.
+												</p>
+										</div>
+										</div>
 								<script>
 									window.onload = () => {
 										let inicial = document.querySelector(".items:nth-child(1)")
 										inicial.classList.add("active")
 										}
-									</script>
+									</script> <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 							</body>
 							</html>
